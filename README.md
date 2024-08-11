@@ -49,9 +49,9 @@ A binary mask is created to highlight skin tones in the HSV image. This mask iso
 
 6. Morphological Transformations:
 
-  -Dilation: Expands the white regions in the mask to fill small gaps.
+    -Dilation: Expands the white regions in the mask to fill small gaps.
 
-  -Erosion: Shrinks the white regions to remove noise and smooth edges.
+    -Erosion: Shrinks the white regions to remove noise and smooth edges.
 
 7. Thresholding:
 The mask is further processed to create a binary image where significant features are highlighted.
