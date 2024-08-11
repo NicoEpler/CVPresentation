@@ -4,9 +4,13 @@ HandDino is a Python application that allows you to control Chrome's Dinosaur ga
 
 Packages Required
 OpenCV (cv2): For computer vision tasks, such as image processing and gesture detection.
+
 numpy: For numerical operations, especially with arrays.
+
 math: For mathematical calculations used in gesture analysis.
+
 pyautogui: For simulating keyboard inputs based on detected gestures.
+
 Execution
 
 
