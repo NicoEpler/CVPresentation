@@ -2,16 +2,20 @@
 
 HandDino is a Python application that allows you to control Chrome's Dinosaur game using hand movements. Utilizing OpenCV, this program processes hand gestures to simulate keyboard inputs, enabling you to play the game without touching your keyboard.
 
-Packages Required
--OpenCV (cv2): For computer vision tasks, such as image processing and gesture detection.
+------------------------------------------------------------------------------
 
--numpy: For numerical operations, especially with arrays.
+Packages Required:
+  -OpenCV (cv2): For computer vision tasks, such as image processing and gesture detection.
 
--math: For mathematical calculations used in gesture analysis.
+  -numpy: For numerical operations, especially with arrays.
 
--pyautogui: For simulating keyboard inputs based on detected gestures.
+  -math: For mathematical calculations used in gesture analysis.
 
-Execution
+  -pyautogui: For simulating keyboard inputs based on detected gestures.
+
+------------------------------------------------------------------------------
+
+Execution:
 
 Setup: Ensure you have the required packages installed. 
 
@@ -24,7 +28,7 @@ Keep your hand within the rectangle drawn by the program on the video feed.
 Play:
 Move your hand within the defined area to make the dinosaur jump in the game.
 
-
+------------------------------------------------------------------------------
 Program Workflow:
 
 1. Capture Frame:
@@ -45,9 +49,9 @@ A binary mask is created to highlight skin tones in the HSV image. This mask iso
 
 6. Morphological Transformations:
 
--Dilation: Expands the white regions in the mask to fill small gaps.
+  -Dilation: Expands the white regions in the mask to fill small gaps.
 
--Erosion: Shrinks the white regions to remove noise and smooth edges.
+  -Erosion: Shrinks the white regions to remove noise and smooth edges.
 
 7. Thresholding:
 The mask is further processed to create a binary image where significant features are highlighted.
@@ -66,11 +70,15 @@ Convexity defects are identified to detect indentations in the hand's contour, w
 Using the convexity defects, the program calculates angles to identify finger tips.
 If a sufficient number of finger tips are detected (indicative of a specific gesture), a corresponding keyboard action is simulated (e.g., pressing the spacebar to make the dinosaur jump).
 
+------------------------------------------------------------------------------
+
 Display Results:
 Various stages of image processing are displayed in separate windows for debugging and analysis.
 
-Tests and Controls
+------------------------------------------------------------------------------
 
--Adjust HSV Values: Modify the HSV range values in the cv2.inRange function to match your lighting conditions for better skin color detection.
+Tests and Controls:
 
--Test with Different Lighting: Ensure that the program works effectively under different lighting conditions by testing and adjusting parameters as needed.
+  -Adjust HSV Values: Modify the HSV range values in the cv2.inRange function to match your lighting conditions for better skin color detection.
+
+  -Test with Different Lighting: Ensure that the program works effectively under different lighting conditions by testing and adjusting parameters as needed.
