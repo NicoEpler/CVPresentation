@@ -1,5 +1,5 @@
 # CVPresentation
-HandDino
+
 HandDino is a Python application that allows you to control Chrome's Dinosaur game using hand movements. Utilizing OpenCV, this program processes hand gestures to simulate keyboard inputs, enabling you to play the game without touching your keyboard.
 
 Packages Required
@@ -16,12 +16,12 @@ pip install opencv-python numpy pyautogui
 Run the Program: Execute the Python script. Make sure to have a webcam connected to your computer.
 
 Start the Game:
-
 Open Chrome and navigate to chrome://dino.
 Keep your hand within the rectangle drawn by the program on the video feed.
 Play:
-
 Move your hand within the defined area to make the dinosaur jump in the game.
+
+
 Program Workflow
 Capture Frame:
 
