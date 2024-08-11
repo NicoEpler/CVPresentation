@@ -8,20 +8,21 @@ Packages Required
 -numpy: For numerical operations, especially with arrays.
 
 -math: For mathematical calculations used in gesture analysis.
+
 -pyautogui: For simulating keyboard inputs based on detected gestures.
 
 Execution
 
-
 Setup: Ensure you have the required packages installed. 
+
 Run the Program: Execute the Python script. Make sure to have a webcam connected to your computer.
 
 Start the Game:
 Open Chrome and navigate to chrome://dino.
 Keep your hand within the rectangle drawn by the program on the video feed.
+
 Play:
 Move your hand within the defined area to make the dinosaur jump in the game.
-
 
 Program Workflow
 Capture Frame:
