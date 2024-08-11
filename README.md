@@ -8,11 +8,9 @@ numpy: For numerical operations, especially with arrays.
 math: For mathematical calculations used in gesture analysis.
 pyautogui: For simulating keyboard inputs based on detected gestures.
 Execution
-Setup: Ensure you have the required packages installed. You can install them using pip:
 
-bash
-Copy code
-pip install opencv-python numpy pyautogui
+
+Setup: Ensure you have the required packages installed. 
 Run the Program: Execute the Python script. Make sure to have a webcam connected to your computer.
 
 Start the Game:
