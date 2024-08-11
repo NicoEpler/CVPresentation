@@ -83,3 +83,9 @@ Tests and Controls:
   -Adjust HSV Values: Modify the HSV range values in the cv2.inRange function to match your lighting conditions for better skin color detection.
 
   -Test with Different Lighting: Ensure that the program works effectively under different lighting conditions by testing and adjusting parameters as needed.
+
+------------------------------------------------------------------------------
+
+References:
+
+[1] https://github.com/harshilp24/handdino-opencv
